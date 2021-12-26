@@ -1,0 +1,102 @@
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    font-family: "Open Sans";
+    padding: 10px; 
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    padding: 100px;
+    margin: 70px 250px;
+}
+
+
+header {
+    text-align: center;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 2px;
+}
+
+.logo-text {
+    color: lime;
+    font-size: 22px;
+    margin-bottom: 3px;
+}
+
+nav {
+    text-align: center;
+}
+
+.nav-box {
+    background-color: lime;
+    padding: 4px;
+    padding-bottom: 7px;
+    margin-top: 5px;
+}
+
+button {
+    height: 15px;
+    font-size: 8px;
+    margin-bottom: 3px;
+}
+
+
+/* colore del testo all'interno del tag main di colore bianco */
+
+main {
+    color: white;
+}
+
+.head-text {
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.address {
+    margin-top: 2px;
+}
+
+.address:before {
+    content: "\21A6  ";
+}
+
+.stato {
+    margin-top: 0;
+}
+
+div > p {
+    margin-bottom: 2px;
+    font-size: 12px;
+}
+
+.info {
+    margin-top: 15px;
+}
+
+.progress {
+    height: 18px;
+    margin-top: 2px;
+    border-radius: 3px;
+}
+
+.orange {
+    width: 140px;
+    background-color:rgb(250, 185, 65);
+}
+
+.red {
+    width: 60px;
+    background-color: rgb(206, 18, 18);
+}
+
+.green {
+    width: 300px;
+    background-color: rgb(8, 148, 38);
+}
